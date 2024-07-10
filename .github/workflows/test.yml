@@ -9,3 +9,8 @@ jobs:
 
       - name: Print Hello World
         run: echo "Hello World"
+
+      - name: run command
+        run: sudo apt update -y
+
+  
